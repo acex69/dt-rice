@@ -23,6 +23,7 @@ ODM_MANIFEST_GALAHAD_FILES := $(DEVICE_PATH)/manifest_galahad.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
+
 # Kernel-Clang
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := azure
