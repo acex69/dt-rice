@@ -23,6 +23,10 @@ ODM_MANIFEST_GALAHAD_FILES := $(DEVICE_PATH)/manifest_galahad.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
+# Kernel-Clang
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := azure
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-azure
 
 # ANXCamera
 -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
