@@ -15,6 +15,9 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.project.rc
+    
+# ANXCamera
+$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
